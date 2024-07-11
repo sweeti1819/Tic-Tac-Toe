@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(90, 184, 187);
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ticTacBox{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+  color: rgba(165, 42, 42, 0.753);
+  font-size: 7vmin;
+  background-color:bisque;
+}
+#reset-btn{
+    padding:0.6rem;
+    font-size: 1.5rem;
+    background-color: rgba(5, 43, 100, 0.822);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#new-btn{
+    padding:0.6rem;
+    font-size: 1.5rem;
+    background-color: rgba(5, 43, 100, 0.822);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#winMsg{
+    color:white;
+    font-size: 7vmin;
+}
+.hide{
+  display: none;
+}
+
